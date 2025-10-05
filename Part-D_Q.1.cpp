@@ -1,13 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int number;
-    cout<<"Enter The Number For Multipication Table"<<endl;
-    cin>>number;
+    cout << "Enter The Number For Multipication Table" << endl;
+    cin >> number;
 
-    for(int i=1; i<=10;i++){
-        cout<<number<<" * "<<i<<" = "<<number*i<<endl;
+    for (int i = 1; i <= 10; i++)
+    {
+        cout << number << " * " << i << " = " << number * i << endl;
     }
-return 0;
+    return 0;
 }
